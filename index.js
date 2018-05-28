@@ -109,7 +109,7 @@ module.exports = {
             console.log('Karma has exited with ' + exitCode);
             deferred.resolve(exitCode);
 
-            // Close the static server after karma exists
+            // Close the static server after karma exits
             staticServer.close();
         });
 
