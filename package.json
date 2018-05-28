@@ -72,8 +72,8 @@
   "_spec": "karma-extjs-jasmine-tester",
   "_where": "/home/emisia/JCVETKOVIC/workspace/projects/yeya-emisia-project",
   "author": {
-      "name": "Jovan Cvetkovic",
-      "email": "jovanca.cvetkovic@gmail.com"
+    "name": "Jovan Cvetkovic",
+    "email": "jovanca.cvetkovic@gmail.com"
   },
   "bugs": {
     "url": "https://github.com/yeyalab/karma-extjs-jasmine-tester"
@@ -124,5 +124,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "1.1.1"
+  "version": "1.1.2"
 }
