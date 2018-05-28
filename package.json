@@ -1,0 +1,130 @@
+{
+  "_from": "karma-extjs-jasmine-tester",
+  "_id": "karma-extjs-jasmine-tester@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-npXMOMLeW5/0s0czM+8vr3/8leZi5QZIiLdEINmqaoNT0Qi926hfEJRE55FR7O21MZcm/xA0mXkt8r3wTK9ncg==",
+  "_location": "/karma-extjs-jasmine-tester",
+  "_phantomChildren": {
+    "after": "0.8.2",
+    "backo2": "1.0.2",
+    "base64-arraybuffer": "0.1.5",
+    "base64id": "1.0.0",
+    "better-assert": "1.0.2",
+    "blob": "0.0.4",
+    "bluebird": "3.5.1",
+    "body-parser": "1.18.3",
+    "chokidar": "1.7.0",
+    "colors": "1.3.0",
+    "combine-lists": "1.0.1",
+    "component-bind": "1.0.0",
+    "component-inherit": "0.0.3",
+    "connect": "3.6.6",
+    "cookie": "0.3.1",
+    "core-js": "2.5.6",
+    "core-util-is": "1.0.2",
+    "di": "0.0.1",
+    "dom-serialize": "2.2.1",
+    "expand-braces": "0.1.2",
+    "fs-access": "1.0.1",
+    "glob": "7.1.2",
+    "graceful-fs": "4.1.11",
+    "has-binary": "0.1.7",
+    "has-cors": "1.1.0",
+    "http-proxy": "1.17.0",
+    "indexof": "0.0.1",
+    "inherits": "2.0.3",
+    "isbinaryfile": "3.0.2",
+    "mime": "1.6.0",
+    "mime-types": "2.1.18",
+    "minimatch": "3.0.4",
+    "negotiator": "0.6.1",
+    "object-component": "0.0.3",
+    "optimist": "0.6.1",
+    "options": "0.0.6",
+    "os-tmpdir": "1.0.2",
+    "parseqs": "0.0.5",
+    "parseuri": "0.0.5",
+    "qjobs": "1.2.0",
+    "range-parser": "1.2.0",
+    "rimraf": "2.6.2",
+    "safe-buffer": "5.1.2",
+    "to-array": "0.1.4",
+    "useragent": "2.2.1",
+    "which": "1.3.0",
+    "wtf-8": "1.0.0",
+    "yeast": "0.1.2"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "karma-extjs-jasmine-tester",
+    "name": "karma-extjs-jasmine-tester",
+    "escapedName": "karma-extjs-jasmine-tester",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/karma-extjs-jasmine-tester/-/karma-extjs-jasmine-tester-1.0.0.tgz",
+  "_shasum": "3b8f3ba1d34bd73f51cbbaeb5faf16f786e0129d",
+  "_spec": "karma-extjs-jasmine-tester",
+  "_where": "/home/emisia/JCVETKOVIC/workspace/projects/yeya-emisia-project",
+  "author": {
+    "name": "Bjørn Harald Olsen",
+    "email": "bjornhol@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/yeyalab/karma-extjs-jasmine-tester"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Jovan Cvetkovic",
+      "email": "jovanca.cvetkovic@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "ecstatic": "3.2.0",
+    "jasmine-core": "3.1.0",
+    "karma": "2.0.2",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-coverage": "1.1.2",
+    "karma-cli": "1.0.1",
+    "karma-edge-launcher": "0.4.2",
+    "karma-firefox-launcher": "1.1.0",
+    "karma-generic-preprocessor": "1.1.0",
+    "karma-ie-launcher": "1.0.0",
+    "karma-jasmine": "1.1.2",
+    "merge": "1.2.0",
+    "q": "1.5.1"
+  },
+  "deprecated": false,
+  "description": "Use Karma to run tests for Ext JS modern applications",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/yeyalab/karma-extjs-jasmine-tester",
+  "keywords": [
+    "karma",
+    "jasmine",
+    "coverage",
+    "test",
+    "sencha",
+    "extjs",
+    "jsb3"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "karma-extjs-jasmine-tester",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yeyalab/karma-extjs-jasmine-tester.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.0"
+}
