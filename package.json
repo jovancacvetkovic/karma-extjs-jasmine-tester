@@ -1,6 +1,6 @@
 {
   "_from": "karma-extjs-jasmine-tester",
-  "_id": "karma-extjs-jasmine-tester@1.0.0",
+  "_id": "karma-extjs-jasmine-tester@1.0.1",
   "_inBundle": false,
   "_integrity": "sha512-npXMOMLeW5/0s0czM+8vr3/8leZi5QZIiLdEINmqaoNT0Qi926hfEJRE55FR7O21MZcm/xA0mXkt8r3wTK9ncg==",
   "_location": "/karma-extjs-jasmine-tester",
@@ -99,7 +99,15 @@
     "karma-ie-launcher": "1.0.0",
     "karma-jasmine": "1.1.2",
     "merge": "1.2.0",
-    "q": "1.5.1"
+    "q": "1.5.1",
+    "gulp": "*",
+    "gulp-compass": "1.1.x",
+    "gulp-concat": "2.2.x",
+    "gulp-jshint": "1.5.x",
+    "gulp-rename": "1.2.x",
+    "gulp-uglify": "0.2.x",
+    "gulp-util": "2.2.x",
+    "yargs": "1.2.x"
   },
   "deprecated": false,
   "description": "Use Karma to run tests for Ext JS modern applications",
@@ -113,8 +121,7 @@
     "coverage",
     "test",
     "sencha",
-    "extjs",
-    "jsb3"
+    "extjs"
   ],
   "license": "MIT",
   "main": "index.js",

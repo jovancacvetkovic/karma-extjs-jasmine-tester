@@ -13,7 +13,7 @@
     
     function launchTests(){
         // Wait for Ext to get ready
-        if (Ext6Ready) {
+        if (ExtReady) {
             window.__karma__.loaded = karmaLoadedFunction;
             window.__karma__.loaded();
         }
