@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d89f814-e7bc-4e6d-9a8a-fa5ebee2ad06" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="6d89f814-e7bc-4e6d-9a8a-fa5ebee2ad06" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +41,10 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="450">
+              <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
               <folding>
                 <element signature="n#!!block;n#_phantomChildren#0;n#!!top" />
-                <element signature="n#!!block;n#dependencies#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -94,7 +89,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="30" />
     <option name="width" value="1900" />
     <option name="height" value="1008" />
@@ -227,15 +222,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527492701304</updated>
-      <workItem from="1527492703410" duration="4672000" />
+      <workItem from="1527492703410" duration="4871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4672000" />
+    <option name="totallyTimeSpent" value="4871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1008" extended-state="6" />
+    <frame x="0" y="30" width="1920" height="1008" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -248,10 +243,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.1269461" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3233533" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Quick Launch" side_tool="true" />
       <window_info anchor="bottom" id="Tail" />
       <window_info anchor="right" id="Database" />
@@ -347,11 +342,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="450">
+          <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
           <folding>
             <element signature="n#!!block;n#_phantomChildren#0;n#!!top" />
-            <element signature="n#!!block;n#dependencies#0;n#!!top" />
           </folding>
         </state>
       </provider>
