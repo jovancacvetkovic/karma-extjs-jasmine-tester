@@ -129,5 +129,8 @@
         "type": "git",
         "url": "git://github.com/yeyalab/karma-extjs-jasmine-tester.git"
     },
-    "version": "1.1.4"
+    "version": "1.1.4",
+    "devDependencies": {
+        "jasmine": "^3.1.0"
+    }
 }
