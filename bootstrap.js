@@ -1,29 +1,32 @@
 (function(){
-    var karmaLoadedFunction = window.__karma__.loaded,
-        ExtReady = false;
+    //noinspection JSUnresolvedVariable
+    let Ext = Ext ? Ext : {};
+    
+    let onKarmaLoaded = window.__karma__.loaded;
+    let isExtReady = false;
     
     window.__karma__.loaded = function(){
     };
     
     if (typeof Ext !== 'undefined') {
         Ext.onReady(function(){
-            ExtReady = true;
+            isExtReady = true;
         });
     }
     
-    function launchTests(){
+    function runTests(){
         // Wait for Ext to get ready
-        if (ExtReady) {
-            window.__karma__.loaded = karmaLoadedFunction;
+        if (isExtReady) {
+            window.__karma__.loaded = onKarmaLoaded;
             window.__karma__.loaded();
         }
         else {
             setTimeout(function(){
-                // Re-try for Ext to get ready
-                launchTests();
+                // Re-try for Ext until is ready
+                runTests();
             }, 200);
         }
     }
     
-    launchTests();
+    runTests();
 }());

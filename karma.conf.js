@@ -10,6 +10,7 @@ module.exports = {
             // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
             frameworks: ['jasmine'],
             
+            // Files to be included in testing
             files: [],
             
             // list of files / patterns to exclude
@@ -19,7 +20,10 @@ module.exports = {
                 'cordova/*'
             ],
             
+            // Context html file
             customContextFile: 'context.html',
+            
+            // Debug html file, this is used to debug tests
             customDebugFile: 'debug.html',
             
             // preprocess matching files before serving them to the browser
@@ -51,7 +55,7 @@ module.exports = {
             autoWatch: true,
             
             // start these browsers
-            // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+            // available browser launchers: Chrome, ChromeHeadless
             browsers: [],
             
             // Continuous Integration mode
