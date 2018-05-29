@@ -1,14 +1,13 @@
 (function(){
-    //noinspection JSUnresolvedVariable
-    let Ext = Ext ? Ext : {};
-    
     let onKarmaLoaded = window.__karma__.loaded;
     let isExtReady = false;
     
     window.__karma__.loaded = function(){
     };
     
+    //noinspection JSUnresolvedVariable
     if (typeof Ext !== 'undefined') {
+        //noinspection JSUnresolvedVariable
         Ext.onReady(function(){
             isExtReady = true;
         });

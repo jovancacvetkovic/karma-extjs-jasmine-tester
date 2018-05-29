@@ -103,7 +103,6 @@ module.exports = {
         
         options.karma.customContextFile = path.join(__dirname, '/context.html');
         options.karma.customDebugFile = path.join(__dirname, '/debug.html');
-        console.log('Karma options: ' + options.karma);
         return options;
     },
     
@@ -113,7 +112,7 @@ module.exports = {
         var staticServer = this.serveStatic(options.staticPort, options.staticLocation);
         
         var karma = new Server(options.karma, function(exitCode){
-            console.log('Karma has exited with ' + exitCode);
+            console.log('Karma has exited with code: ' + exitCode);
             deferred.resolve(exitCode);
             
             // Close the static server after karma exits
